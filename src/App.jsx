@@ -23,3 +23,16 @@ export default function BookingApp() {
     </div>
   );
 }
+<div className="mb-4">
+  <label className="block font-semibold mb-2">Booking Type:</label>
+  <select
+    value={bookingType}
+    onChange={(e) => setBookingType(e.target.value)}
+    className="w-full p-2 border rounded"
+  >
+    <option value="">Select</option>
+    <option value="Full Day Charter">Full Day Charter</option>
+    <option value="Half Day Charter">Half Day Charter</option>
+    <option value="Transfer">Transfer</option>
+  </select>
+</div>
