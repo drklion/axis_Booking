@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function BookingApp() {
   const [boat, setBoat] = useState("");
   const [bookingType, setBookingType] = useState("");
